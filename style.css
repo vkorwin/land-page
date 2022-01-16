@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    max-width:1200px;
+}
+
+.hero, .content, .review{
+    padding:0px 100px 0px 100px;
+}
+
+footer, .hero {
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color:white;
+    border-style:none;
+    border-radius:2px;
+    font-size:16px;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: #F9FAF8;
+    background-color:#1F2937;
+    height:75px;
+    width:100%;
+}
+
+header div {
+    font-size:24px;
+    flex-shrink:0;
+    padding:25px;
+}
+header ul {
+    padding-right:25px;
+}
+header li {
+    margin:8px;
+    padding: 0px 4px 0px 4px;
+    flex-shrink:0;
+    border: 2px solid white;
+    border-radius:2px;
+}
+
+.hero {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+.hero .text {
+    padding-right:100px;
+}
+
+.hero .text div {
+    font-weight:bold;
+    font-size:36px;
+}
+
+.hero .text p {
+    font-size:18px;
+}
+
+.hero img {
+    flex-shrink:0;
+    width:300px;
+    height:175px;
+    border-radius:10px;
+}
+.content {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.content div{
+    font-size:36px;
+    font-weight:bold;
+    color:#1F2937;
+    padding-top:50px;
+}
+
+.content img {
+    width:125px;
+    height:125px;
+    border-radius:20px;
+}
+
+.content li {
+    width:125px;
+    font-size:12px;
+    text-align:center;
+    margin:12px;
+}
+
+ul {
+    display: flex;
+    justify-content:center;
+    list-style:none;
+    text-decoration:none;
+}
+
+.review {
+    background-color:#E5E7EB;
+    font-style:italic;
+    font-size:24px;
+    padding:50px 200px 25px;
+    min-width:400px;
+}
+
+.review p {
+    text-align:right;
+}
+
+.hook {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    margin: 25px;
+    padding:12px 25px 12px 25px;
+    border-radius:10px;
+}
+
+.hook .text {
+    padding-right:20px;
+}
+
+.hook .text div {
+    font-weight:bold;
+    font-size:24px;
+}
+
+.hook button {
+    border:2px solid white;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:50px;
+    font-size:12px;
+}
