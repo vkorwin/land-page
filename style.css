@@ -4,7 +4,7 @@ body {
     justify-content:space-between;
     align-items:center;
     font-family: 'Roboto', sans-serif;
-    max-width:1600px;
+    max-width:1000px;
 }
 
 .hero, .content, .review{
