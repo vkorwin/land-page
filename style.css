@@ -4,7 +4,7 @@ body {
     justify-content:space-between;
     align-items:center;
     font-family: 'Roboto', sans-serif;
-    max-width:1200px;
+    max-width:1600px;
 }
 
 .hero, .content, .review{
@@ -91,20 +91,21 @@ header li {
 }
 
 .content img {
-    width:150px;
-    height:150px;
+    width:225px;
+    height:225px;
     border-radius:20px;
 }
 
 .content li {
-    width:150px;
+    width:250px;
     font-size:16px;
     text-align:center;
-    margin:12px;
+    margin:25px;
 }
 
 ul {
     display: flex;
+    flex-wrap:wrap;
     justify-content:center;
     list-style:none;
     text-decoration:none;
